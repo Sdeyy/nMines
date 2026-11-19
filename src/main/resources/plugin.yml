@@ -1,0 +1,29 @@
+name: nMines
+version: '${project.version}'
+main: dev.sdeyy.nmines.NMinesPlugin
+api-version: '1.16'
+description: Budgeted mine regeneration, custom rewards and decorated menus.
+author: Sdeyy
+softdepend: [WorldEdit, FastAsyncWorldEdit, PlaceholderAPI]
+commands:
+  nmines:
+    aliases: [nm, mines]
+    description: Open the nMines panel
+    usage: /<command> help
+permissions:
+  nmines.admin:
+    default: op
+    description: Manage mines, menus and selections
+    children:
+      nmines.use: true
+      nmines.teleport: true
+      nmines.bypass: true
+  nmines.use:
+    default: true
+    description: View public mines
+  nmines.teleport:
+    default: true
+    description: Teleport to accessible mines
+  nmines.bypass:
+    default: op
+    description: Build in mines while they are not being processed

@@ -1,0 +1,20 @@
+# nMines settings. Materials must exist on the running server version.
+# All messages, menu text and the prefix are configured in language.yml.
+engine:
+  blocks-per-tick: 3000
+  milliseconds-per-tick: 3.0
+  chunk-loads-per-tick: 1
+limits:
+  max-region-volume: 1000000
+  max-total-volume: 10000000
+  max-schematic-volume: 100000
+defaults:
+  reset-seconds: 300
+  reset-percent: 30.0
+  warning-seconds: 10
+  protect: true
+menus:
+  border: BLACK_STAINED_GLASS_PANE
+  accent: CYAN_STAINED_GLASS_PANE
+  highlight: LIGHT_BLUE_STAINED_GLASS_PANE
+  sound: true

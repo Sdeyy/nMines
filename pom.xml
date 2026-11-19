@@ -3,6 +3,12 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>dev.sdeyy</groupId><artifactId>nmines</artifactId><version>1.0.0</version>
   <name>nMines</name><description>Portable, budgeted mines for Bukkit and Paper</description>
+  <url>https://github.com/Sdeyy/nMines</url>
+  <licenses><license><name>MIT License</name><url>https://opensource.org/license/mit</url><distribution>repo</distribution></license></licenses>
+  <scm><connection>scm:git:https://github.com/Sdeyy/nMines.git</connection><url>https://github.com/Sdeyy/nMines</url></scm>
+  <distributionManagement>
+    <repository><id>github</id><name>GitHub Packages</name><url>https://maven.pkg.github.com/sdeyy/nMines</url></repository>
+  </distributionManagement>
   <properties><maven.compiler.release>8</maven.compiler.release><project.build.sourceEncoding>UTF-8</project.build.sourceEncoding><api.group>org.spigotmc</api.group><api.artifact>spigot-api</api.artifact><api.version>1.16.5-R0.1-SNAPSHOT</api.version><output.root>target</output.root></properties>
   <repositories>
     <repository><id>central</id><url>https://repo.maven.apache.org/maven2</url></repository>

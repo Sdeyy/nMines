@@ -4,12 +4,14 @@ A mine management plugin for Bukkit/Spigot and Paper, targeting **Minecraft Java
 
 ## Installation
 
-1. Copy `nMines-1.0.0.jar` into `plugins/` and start your server.
+1. Download the JAR from [GitHub Releases](https://github.com/Sdeyy/nMines/releases/latest), copy it into `plugins/` and start your server.
 2. Use the Java version required by your server. The plugin uses Java 8 bytecode; Paper 26.3 itself requires Java 25.
 3. Operators can manage mines with `/nm`. The administrative permission is `nmines.admin`.
 4. Optional: install a WorldEdit/FAWE 7 build compatible with your server for selections and schematic imports. Install PlaceholderAPI if you want scoreboard/hologram placeholders.
 
 No resource pack or mandatory plugin dependency is required. Menus use 54-slot inventories, dark borders, cyan accents, navigation, live statistics and inventory item pickers.
+
+Server owners only need the release JAR. A Maven artifact is also published to [GitHub Packages](https://github.com/Sdeyy/nMines/packages) as `dev.sdeyy:nmines:1.0.0` for developers. Its Maven repository is `https://maven.pkg.github.com/sdeyy/nMines`; downloads through Maven require GitHub package authentication.
 
 Folia is not supported.
 
